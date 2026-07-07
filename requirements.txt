@@ -1,0 +1,12 @@
+# AI Service kandidat-facing (app/, dipanggil BE) — mode utama.
+# Cukup untuk `uvicorn app.main:app`. Jalan di Python 3.11+ (termasuk 3.14+).
+# Untuk mode HRD Batch Tool (src/, main.py, dashboard.py) yang legacy,
+# lihat requirements-hrd.txt (butuh Python <3.14, lihat catatan di file itu).
+
+fastapi==0.139.0
+uvicorn[standard]==0.49.0
+python-multipart==0.0.32
+pymupdf==1.28.0
+openai==2.44.0
+python-dotenv==1.2.2
+pydantic==2.13.4
